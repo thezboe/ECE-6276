@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_FILTER_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_FILTER" />
+            <top_module name="generic_utilities" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="601448979454fs"></ZoomStartTime>
+      <ZoomEndTime time="602051303420fs"></ZoomEndTime>
+      <Cursor1Time time="601745275000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/TB_FILTER/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FILTER/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FILTER/T" type="other">
+      <obj_property name="ElementShortName">T</obj_property>
+      <obj_property name="ObjectShortName">T</obj_property>
+   </wvobject>
+   <wvobject fp_name="group16" type="group">
+      <obj_property name="label">Top Level</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TB_FILTER/DUT/FAKE_CAMERA_CLK" type="logic">
+         <obj_property name="ElementShortName">FAKE_CAMERA_CLK</obj_property>
+         <obj_property name="ObjectShortName">FAKE_CAMERA_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/FAKE_CAMERA_RST" type="logic">
+         <obj_property name="ElementShortName">FAKE_CAMERA_RST</obj_property>
+         <obj_property name="ObjectShortName">FAKE_CAMERA_RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/FAKE_CAMERA_FVAL" type="logic">
+         <obj_property name="ElementShortName">FAKE_CAMERA_FVAL</obj_property>
+         <obj_property name="ObjectShortName">FAKE_CAMERA_FVAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/FAKE_CAMERA_LVAL" type="logic">
+         <obj_property name="ElementShortName">FAKE_CAMERA_LVAL</obj_property>
+         <obj_property name="ObjectShortName">FAKE_CAMERA_LVAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/FAKE_CAMERA_DATA" type="array">
+         <obj_property name="ElementShortName">FAKE_CAMERA_DATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">FAKE_CAMERA_DATA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VIDEO_BITS" type="other">
+         <obj_property name="ElementShortName">VIDEO_BITS</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VIDEO_VPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_VPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VIDEO_VLIN" type="other">
+         <obj_property name="ElementShortName">VIDEO_VLIN</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VLIN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VIDEO_IPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_IPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_IPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VIDEO_INT_TIME" type="other">
+         <obj_property name="ElementShortName">VIDEO_INT_TIME</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_INT_TIME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group599" type="group">
+      <obj_property name="label">FAKE_CAMERA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VID_SELECT" type="array">
+         <obj_property name="ElementShortName">VID_SELECT[1:0]</obj_property>
+         <obj_property name="ObjectShortName">VID_SELECT[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/FVAL_OUT" type="logic">
+         <obj_property name="ElementShortName">FVAL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FVAL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/LVAL_OUT" type="logic">
+         <obj_property name="ElementShortName">LVAL_OUT</obj_property>
+         <obj_property name="ObjectShortName">LVAL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/DATA_OUT" type="array">
+         <obj_property name="ElementShortName">DATA_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/SM" type="other">
+         <obj_property name="ElementShortName">SM</obj_property>
+         <obj_property name="ObjectShortName">SM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VLIN_CNTR" type="array">
+         <obj_property name="ElementShortName">VLIN_CNTR[6:0]</obj_property>
+         <obj_property name="ObjectShortName">VLIN_CNTR[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/INT_TIME_CNTR" type="array">
+         <obj_property name="ElementShortName">INT_TIME_CNTR[8:0]</obj_property>
+         <obj_property name="ObjectShortName">INT_TIME_CNTR[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VPIX_CNTR" type="array">
+         <obj_property name="ElementShortName">VPIX_CNTR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">VPIX_CNTR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/IPIX_CNTR" type="array">
+         <obj_property name="ElementShortName">IPIX_CNTR[4:0]</obj_property>
+         <obj_property name="ObjectShortName">IPIX_CNTR[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/FVAL_REG" type="logic">
+         <obj_property name="ElementShortName">FVAL_REG</obj_property>
+         <obj_property name="ObjectShortName">FVAL_REG</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/LVAL_REG" type="logic">
+         <obj_property name="ElementShortName">LVAL_REG</obj_property>
+         <obj_property name="ObjectShortName">LVAL_REG</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/DATA_REG" type="array">
+         <obj_property name="ElementShortName">DATA_REG[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_REG[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/FVAL_REG1" type="logic">
+         <obj_property name="ElementShortName">FVAL_REG1</obj_property>
+         <obj_property name="ObjectShortName">FVAL_REG1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/LVAL_REG1" type="logic">
+         <obj_property name="ElementShortName">LVAL_REG1</obj_property>
+         <obj_property name="ObjectShortName">LVAL_REG1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/DATA_REG1" type="array">
+         <obj_property name="ElementShortName">DATA_REG1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_REG1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/MEM_ADDR" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR[14:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/MEM_DATA" type="array">
+         <obj_property name="ElementShortName">MEM_DATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DATA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VIDEO_BITS" type="other">
+         <obj_property name="ElementShortName">VIDEO_BITS</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VIDEO_VPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_VPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VIDEO_VLIN" type="other">
+         <obj_property name="ElementShortName">VIDEO_VLIN</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VLIN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VIDEO_IPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_IPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_IPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VIDEO_INT_TIME" type="other">
+         <obj_property name="ElementShortName">VIDEO_INT_TIME</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_INT_TIME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/HORIZ_TP" type="array">
+         <obj_property name="ElementShortName">HORIZ_TP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HORIZ_TP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/VERTI_TP" type="array">
+         <obj_property name="ElementShortName">VERTI_TP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">VERTI_TP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/IMAGE_TP" type="array">
+         <obj_property name="ElementShortName">IMAGE_TP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IMAGE_TP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/BRAM_ADDR_BITS" type="other">
+         <obj_property name="ElementShortName">BRAM_ADDR_BITS</obj_property>
+         <obj_property name="ObjectShortName">BRAM_ADDR_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TP_GENERATOR/BRAM_DATA_BITS" type="other">
+         <obj_property name="ElementShortName">BRAM_DATA_BITS</obj_property>
+         <obj_property name="ObjectShortName">BRAM_DATA_BITS</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group264" type="group">
+      <obj_property name="label">TRANSPOSE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/SWT" type="logic">
+         <obj_property name="ElementShortName">SWT</obj_property>
+         <obj_property name="ObjectShortName">SWT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/FVAL_IN" type="logic">
+         <obj_property name="ElementShortName">FVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">FVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/LVAL_IN" type="logic">
+         <obj_property name="ElementShortName">LVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">LVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/FVAL_OUT" type="logic">
+         <obj_property name="ElementShortName">FVAL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FVAL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/LVAL_OUT" type="logic">
+         <obj_property name="ElementShortName">LVAL_OUT</obj_property>
+         <obj_property name="ObjectShortName">LVAL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/DATA_OUT" type="array">
+         <obj_property name="ElementShortName">DATA_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/BFF_VAL" type="logic">
+         <obj_property name="ElementShortName">BFF_VAL</obj_property>
+         <obj_property name="ObjectShortName">BFF_VAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/FRNT_PRCH" type="logic">
+         <obj_property name="ElementShortName">FRNT_PRCH</obj_property>
+         <obj_property name="ObjectShortName">FRNT_PRCH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/FRNT_PRCH_BFF" type="logic">
+         <obj_property name="ElementShortName">FRNT_PRCH_BFF</obj_property>
+         <obj_property name="ObjectShortName">FRNT_PRCH_BFF</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VPIX_CNTR" type="array">
+         <obj_property name="ElementShortName">VPIX_CNTR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">VPIX_CNTR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VLIN_CNTR" type="array">
+         <obj_property name="ElementShortName">VLIN_CNTR[6:0]</obj_property>
+         <obj_property name="ObjectShortName">VLIN_CNTR[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/IPIX_CNTR" type="array">
+         <obj_property name="ElementShortName">IPIX_CNTR[4:0]</obj_property>
+         <obj_property name="ObjectShortName">IPIX_CNTR[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/INT_TIME_CNTR" type="array">
+         <obj_property name="ElementShortName">INT_TIME_CNTR[8:0]</obj_property>
+         <obj_property name="ObjectShortName">INT_TIME_CNTR[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/WEA" type="array">
+         <obj_property name="ElementShortName">WEA[0:0]</obj_property>
+         <obj_property name="ObjectShortName">WEA[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/ADDRA" type="array">
+         <obj_property name="ElementShortName">ADDRA[14:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRA[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/DINA" type="array">
+         <obj_property name="ElementShortName">DINA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DINA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/DOUTA" type="array">
+         <obj_property name="ElementShortName">DOUTA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DOUTA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/WEB" type="array">
+         <obj_property name="ElementShortName">WEB[0:0]</obj_property>
+         <obj_property name="ObjectShortName">WEB[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/ADDRB" type="array">
+         <obj_property name="ElementShortName">ADDRB[14:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRB[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/DINB" type="array">
+         <obj_property name="ElementShortName">DINB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DINB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/DOUTB" type="array">
+         <obj_property name="ElementShortName">DOUTB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DOUTB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VIDEO_BITS" type="other">
+         <obj_property name="ElementShortName">VIDEO_BITS</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VIDEO_VPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_VPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VIDEO_VLIN" type="other">
+         <obj_property name="ElementShortName">VIDEO_VLIN</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VLIN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VIDEO_IPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_IPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_IPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/VIDEO_INT_TIME" type="other">
+         <obj_property name="ElementShortName">VIDEO_INT_TIME</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_INT_TIME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/BRAM_ADDR_BITS" type="other">
+         <obj_property name="ElementShortName">BRAM_ADDR_BITS</obj_property>
+         <obj_property name="ObjectShortName">BRAM_ADDR_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/TRANSPOSE/BRAM_DATA_BITS" type="other">
+         <obj_property name="ElementShortName">BRAM_DATA_BITS</obj_property>
+         <obj_property name="ObjectShortName">BRAM_DATA_BITS</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group232" type="group">
+      <obj_property name="label">EDGE_DETECTION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/FVAL_IN" type="logic">
+         <obj_property name="ElementShortName">FVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">FVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/LVAL_IN" type="logic">
+         <obj_property name="ElementShortName">LVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">LVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/FVAL_OUT" type="logic">
+         <obj_property name="ElementShortName">FVAL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FVAL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/LVAL_OUT" type="logic">
+         <obj_property name="ElementShortName">LVAL_OUT</obj_property>
+         <obj_property name="ObjectShortName">LVAL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/DATA_OUT" type="array">
+         <obj_property name="ElementShortName">DATA_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/FVAL_SOBEL_OUT" type="logic">
+         <obj_property name="ElementShortName">FVAL_SOBEL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FVAL_SOBEL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/LVAL_SOBEL_OUT" type="logic">
+         <obj_property name="ElementShortName">LVAL_SOBEL_OUT</obj_property>
+         <obj_property name="ObjectShortName">LVAL_SOBEL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/V_OUT_INT" type="array">
+         <obj_property name="ElementShortName">V_OUT_INT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">V_OUT_INT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/H_OUT_INT" type="array">
+         <obj_property name="ElementShortName">H_OUT_INT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">H_OUT_INT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/S_OUT_INT" type="array">
+         <obj_property name="ElementShortName">S_OUT_INT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_OUT_INT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/N" type="other">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/LINE_WIDTH" type="other">
+         <obj_property name="ElementShortName">LINE_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">LINE_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/EDGE_DETECTION/ADDRESS_BUS_WIDTH" type="other">
+         <obj_property name="ElementShortName">ADDRESS_BUS_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">ADDRESS_BUS_WIDTH</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group401" type="group">
+      <obj_property name="label">VGA_CONVERTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/FVAL_IN" type="logic">
+         <obj_property name="ElementShortName">FVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">FVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/LVAL_IN" type="logic">
+         <obj_property name="ElementShortName">LVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">LVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VGA_VS_O" type="logic">
+         <obj_property name="ElementShortName">VGA_VS_O</obj_property>
+         <obj_property name="ObjectShortName">VGA_VS_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VGA_HS_O" type="logic">
+         <obj_property name="ElementShortName">VGA_HS_O</obj_property>
+         <obj_property name="ObjectShortName">VGA_HS_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/PXL_CLK" type="logic">
+         <obj_property name="ElementShortName">PXL_CLK</obj_property>
+         <obj_property name="ObjectShortName">PXL_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/H_CNT" type="array">
+         <obj_property name="ElementShortName">H_CNT[9:0]</obj_property>
+         <obj_property name="ObjectShortName">H_CNT[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/V_CNT" type="array">
+         <obj_property name="ElementShortName">V_CNT[9:0]</obj_property>
+         <obj_property name="ObjectShortName">V_CNT[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/FVAL_IN_Z" type="logic">
+         <obj_property name="ElementShortName">FVAL_IN_Z</obj_property>
+         <obj_property name="ObjectShortName">FVAL_IN_Z</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/LVAL_IN_Z" type="logic">
+         <obj_property name="ElementShortName">LVAL_IN_Z</obj_property>
+         <obj_property name="ObjectShortName">LVAL_IN_Z</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/DATA_IN_Z" type="array">
+         <obj_property name="ElementShortName">DATA_IN_Z[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN_Z[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/BRAM_IN_ADDR" type="array">
+         <obj_property name="ElementShortName">BRAM_IN_ADDR[16:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_IN_ADDR[16:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VGA_VS_REG" type="logic">
+         <obj_property name="ElementShortName">VGA_VS_REG</obj_property>
+         <obj_property name="ObjectShortName">VGA_VS_REG</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VGA_HS_REG" type="logic">
+         <obj_property name="ElementShortName">VGA_HS_REG</obj_property>
+         <obj_property name="ObjectShortName">VGA_HS_REG</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/PIX_OUT_REG" type="array">
+         <obj_property name="ElementShortName">PIX_OUT_REG[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PIX_OUT_REG[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/PIX_CNT" type="other">
+         <obj_property name="ElementShortName">PIX_CNT</obj_property>
+         <obj_property name="ObjectShortName">PIX_CNT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/BRAM_OUT_ADDR" type="array">
+         <obj_property name="ElementShortName">BRAM_OUT_ADDR[19:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_OUT_ADDR[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/UPSCALE_CNT" type="other">
+         <obj_property name="ElementShortName">UPSCALE_CNT</obj_property>
+         <obj_property name="ObjectShortName">UPSCALE_CNT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VIDEO_BITS" type="other">
+         <obj_property name="ElementShortName">VIDEO_BITS</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VIDEO_VPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_VPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VIDEO_VLIN" type="other">
+         <obj_property name="ElementShortName">VIDEO_VLIN</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_VLIN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/VIDEO_IPIX" type="other">
+         <obj_property name="ElementShortName">VIDEO_IPIX</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_IPIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/BRAM_SZ" type="other">
+         <obj_property name="ElementShortName">BRAM_SZ</obj_property>
+         <obj_property name="ObjectShortName">BRAM_SZ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/H_RES" type="other">
+         <obj_property name="ElementShortName">H_RES</obj_property>
+         <obj_property name="ObjectShortName">H_RES</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/H_FP" type="other">
+         <obj_property name="ElementShortName">H_FP</obj_property>
+         <obj_property name="ObjectShortName">H_FP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/H_BP" type="other">
+         <obj_property name="ElementShortName">H_BP</obj_property>
+         <obj_property name="ObjectShortName">H_BP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/H_SY" type="other">
+         <obj_property name="ElementShortName">H_SY</obj_property>
+         <obj_property name="ObjectShortName">H_SY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/H_TOT" type="other">
+         <obj_property name="ElementShortName">H_TOT</obj_property>
+         <obj_property name="ObjectShortName">H_TOT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/V_RES" type="other">
+         <obj_property name="ElementShortName">V_RES</obj_property>
+         <obj_property name="ObjectShortName">V_RES</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/V_FP" type="other">
+         <obj_property name="ElementShortName">V_FP</obj_property>
+         <obj_property name="ObjectShortName">V_FP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/V_BP" type="other">
+         <obj_property name="ElementShortName">V_BP</obj_property>
+         <obj_property name="ObjectShortName">V_BP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/V_SY" type="other">
+         <obj_property name="ElementShortName">V_SY</obj_property>
+         <obj_property name="ObjectShortName">V_SY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/V_TOT" type="other">
+         <obj_property name="ElementShortName">V_TOT</obj_property>
+         <obj_property name="ObjectShortName">V_TOT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/VGA_OUTPUT/UPSCALE_FACTOR" type="other">
+         <obj_property name="ElementShortName">UPSCALE_FACTOR</obj_property>
+         <obj_property name="ObjectShortName">UPSCALE_FACTOR</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group120" type="group">
+      <obj_property name="label">IMAGE_SCALING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/COLORMAP_SELECT" type="logic">
+         <obj_property name="ElementShortName">COLORMAP_SELECT</obj_property>
+         <obj_property name="ObjectShortName">COLORMAP_SELECT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/FVAL_IN" type="logic">
+         <obj_property name="ElementShortName">FVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">FVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/LVAL_IN" type="logic">
+         <obj_property name="ElementShortName">LVAL_IN</obj_property>
+         <obj_property name="ObjectShortName">LVAL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_VS_O" type="logic">
+         <obj_property name="ElementShortName">VGA_VS_O</obj_property>
+         <obj_property name="ObjectShortName">VGA_VS_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_HS_O" type="logic">
+         <obj_property name="ElementShortName">VGA_HS_O</obj_property>
+         <obj_property name="ObjectShortName">VGA_HS_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_RED_O" type="array">
+         <obj_property name="ElementShortName">VGA_RED_O[3:0]</obj_property>
+         <obj_property name="ObjectShortName">VGA_RED_O[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_BLUE_O" type="array">
+         <obj_property name="ElementShortName">VGA_BLUE_O[3:0]</obj_property>
+         <obj_property name="ObjectShortName">VGA_BLUE_O[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_GREEN_O" type="array">
+         <obj_property name="ElementShortName">VGA_GREEN_O[3:0]</obj_property>
+         <obj_property name="ObjectShortName">VGA_GREEN_O[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/FVAL_IN_R1" type="logic">
+         <obj_property name="ElementShortName">FVAL_IN_R1</obj_property>
+         <obj_property name="ObjectShortName">FVAL_IN_R1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/LVAL_IN_R1" type="logic">
+         <obj_property name="ElementShortName">LVAL_IN_R1</obj_property>
+         <obj_property name="ObjectShortName">LVAL_IN_R1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_RED" type="array">
+         <obj_property name="ElementShortName">VGA_RED[3:0]</obj_property>
+         <obj_property name="ObjectShortName">VGA_RED[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_BLUE" type="array">
+         <obj_property name="ElementShortName">VGA_BLUE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">VGA_BLUE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VGA_GREEN" type="array">
+         <obj_property name="ElementShortName">VGA_GREEN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">VGA_GREEN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/MEM_ADDR" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR[3:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/MEM_DATA" type="array">
+         <obj_property name="ElementShortName">MEM_DATA[11:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DATA[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VIDEO_IN_BITS" type="other">
+         <obj_property name="ElementShortName">VIDEO_IN_BITS</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_IN_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/VIDEO_OUT_BITS" type="other">
+         <obj_property name="ElementShortName">VIDEO_OUT_BITS</obj_property>
+         <obj_property name="ObjectShortName">VIDEO_OUT_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/BRAM_ADDR_BITS" type="other">
+         <obj_property name="ElementShortName">BRAM_ADDR_BITS</obj_property>
+         <obj_property name="ObjectShortName">BRAM_ADDR_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/BRAM_DATA_BITS" type="other">
+         <obj_property name="ElementShortName">BRAM_DATA_BITS</obj_property>
+         <obj_property name="ObjectShortName">BRAM_DATA_BITS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TB_FILTER/DUT/IMG_SCALING/BYPASS" type="logic">
+         <obj_property name="ElementShortName">BYPASS</obj_property>
+         <obj_property name="ObjectShortName">BYPASS</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
